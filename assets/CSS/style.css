@@ -5,9 +5,17 @@ p {
 
 .caption {
     font-size: 20px;
-    color:blue;
+    color: pink;
+}
+
+ #contacthead{
+    color: blue; 
+}
+
+.form-control {
+    resize: none;
 }
 
 h1 {
-    color: blue; 
+    color:pink;
 }
