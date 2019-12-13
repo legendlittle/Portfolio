@@ -1,5 +1,5 @@
 # Bootstrap-Portfolio
-This is my portfolio page rebuilt using Bootstrap
+This is my portfolio page rebuilt using the Bootstrap CSS Framework.
 
 ## Objective
 The objective of this project is to utilize the powerful CSS tool Bootstrap to rebuild a portfolio webpage that was previously styled and written without any pre-written CSS styling.
@@ -9,11 +9,10 @@ A major goal in using a pre-written CSS framework is to both see its utility in 
 
 ## Languages Used
 1. HTML
-2. CSS (via Bootstrap)
+2. Bootstrap
 
 ## Technologies Used
 1. Git/Github
-2. Visual Studio Code
-3. Bootstrap CDN
+2. Bootstrap CDN
 
 
