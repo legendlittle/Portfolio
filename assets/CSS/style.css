@@ -3,10 +3,7 @@ p {
     font-size: 26px;
 }
 
-.caption {
-    font-size: 20px;
-    color: pink;
-}
+
 
  #contacthead{
     color: blue; 
@@ -16,11 +13,19 @@ p {
     resize: none;
 }
 
-h1 {
-    color:pink;
+.caption {
+    font-size: 30px;
+    color: rgb(66, 172, 157); 
 }
 .index {
     background: rgb(6,11,12);
     background: linear-gradient(0deg, rgba(6,11,12,1) 12%, rgba(64,139,202,1) 74%);
 }
 
+.portfolio {
+    background: rgb(231,195,63);
+    background: linear-gradient(135deg, rgba(231,195,63,1) 0%, rgba(220,106,20,1) 82%);
+
+background-size:cover;
+
+}
