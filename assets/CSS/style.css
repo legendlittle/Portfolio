@@ -5,9 +5,7 @@ p {
 
 
 
- #contacthead{
-    color: blue; 
-}
+ 
 
 .form-control {
     resize: none;
@@ -28,4 +26,18 @@ p {
 
 background-size:cover;
 
+}
+
+.port {
+    color: rgb(81, 81, 148);
+}
+
+.contact {
+    background: rgb(0,36,31);
+background: linear-gradient(291deg, rgba(0,36,31,1) 8%, rgba(199,170,159,1) 62%);
+}
+
+.cont {
+    color: rgb(97, 95, 231)
+    
 }
