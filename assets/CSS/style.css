@@ -35,9 +35,19 @@ background-size:cover;
 .contact {
     background: rgb(0,36,31);
 background: linear-gradient(291deg, rgba(0,36,31,1) 8%, rgba(199,170,159,1) 62%);
+background-size:cover;
+background-repeat: no-repeat;
 }
 
 .cont {
     color: rgb(97, 95, 231)
+    
+}
+
+@media screen and (max-width: 768px) {
+      .nav-item{
+         
+         display: inline-flex;
+      }
     
 }
