@@ -1,11 +1,4 @@
-p {
-    font-family: 'Big Shoulders Text', cursive;
-    font-size: 26px;
-}
 
-
-
- 
 
 .form-control {
     resize: none;
@@ -16,8 +9,8 @@ p {
     color: rgb(66, 172, 157); 
 }
 .index {
-    background: rgb(6,11,12);
-    background: linear-gradient(0deg, rgba(6,11,12,1) 12%, rgba(64,139,202,1) 74%);
+    background: rgb(161, 12, 112);
+    
 }
 
 .portfolio {
@@ -49,5 +42,98 @@ background-repeat: no-repeat;
          
          display: inline-flex;
       }
+      #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
     
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: rgb(15, 55, 77);
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: rgb(15, 55, 77);
+}
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #95cce7;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: rgb(19, 60, 223);
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: rgb(15, 55, 77);
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #3e0375;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#description {
+    color: rgb(177, 91, 34);
+    font-size:26px;
+}
+
+.prof, .tech, .me, .emme {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 20px;
+}
+
+.me {
+    font-size: 26px;
+}
+
+.emme {
+    font-size: 20px;
 }
