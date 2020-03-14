@@ -1,33 +1,13 @@
 
-
-.form-control {
-    resize: none;
-}
-
 .caption {
     font-size: 30px;
     color: rgb(66, 172, 157); 
 }
+
 .index {
     background: rgb(161, 12, 112);
     
 }
-
-.portfolio {
-    background: rgb(231,195,63);
-    background: linear-gradient(135deg, rgba(231,195,63,1) 0%, rgba(220,106,20,1) 82%);
-
-background-size:cover;
-
-}
-
-.port {
-    color: rgb(81, 81, 148);
-}
-
-
-
-
 
 a, a:hover, a:focus {
     color: inherit;
