@@ -96,7 +96,7 @@ a[data-toggle="collapse"] {
 }
 
 .prof, .tech, .me, .emme {
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -126,9 +126,7 @@ a[data-toggle="collapse"] {
 
 
 @media (max-width: 768px) {
-    /* 80px and its content aligned to centre. Pushing it off the screen with the
-       negative left margin
-    */
+   
     #sidebar.active {
         min-width: 80px;
         max-width: 80px;
@@ -144,8 +142,7 @@ a[data-toggle="collapse"] {
 
 
     
-    /* Downsize the navigation links font size */
-    #sidebar.active ul li a {
+       #sidebar.active ul li a {
         padding: 20px 10px;
         font-size: 0.85em;
     }
@@ -166,14 +163,12 @@ a[data-toggle="collapse"] {
 
     
 
-    /* Adjust the dropdown links padding*/
+   
     #sidebar.active ul ul a {
         padding: 10px !important;
     }
 
-    /* Changing the arrow position to bottom center position, 
-      translateX(50%) works with right: 50% 
-      to accurately  center the arrow */
+   
     .dropdown-toggle::after {
         top: auto;
         bottom: 10px;
