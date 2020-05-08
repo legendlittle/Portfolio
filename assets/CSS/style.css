@@ -129,6 +129,17 @@ a[data-toggle="collapse"] {
     height: 100px;
     background-size: cover;
 }
+
+.portimg {
+    float:right;
+    margin-top: 35%;
+    width: 125px;
+    height: 125px;
+}
+
+.portext {
+    color: rgb(218, 153, 92);
+}
 @media (max-width: 768px) {
    
     #sidebar.active {
