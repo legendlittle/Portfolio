@@ -101,7 +101,7 @@ a[data-toggle="collapse"] {
 }
 
 .me {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .emme {
@@ -123,8 +123,12 @@ a[data-toggle="collapse"] {
 #sidebar.active .sidebar-header h3{
     display: none;
 }
-
-
+.img-fluid {
+    float: left; 
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
 @media (max-width: 768px) {
    
     #sidebar.active {
@@ -176,5 +180,9 @@ a[data-toggle="collapse"] {
         -webkit-transform: translateX(70%);
         -ms-transform: translateX(70%);
         transform: translateX(70%);
+    }
+
+    .img-fluid {
+        padding-top: 20px;
     }
 }
